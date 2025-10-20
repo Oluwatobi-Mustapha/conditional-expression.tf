@@ -3,7 +3,7 @@
 # ==========================================================
 
 variable "environment" {
-  description = "The environment for deployment (e.g., production, staging)"
+  description = "The environment for deployment (i.e production env)"
   type        = string
   default     = "production"
 }
