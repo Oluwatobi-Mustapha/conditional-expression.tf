@@ -21,4 +21,5 @@ terraform apply
 ```
 
 You can override defaults like this:
+
 terraform apply -var="environment=staging" -var="region=us-west-2"
