@@ -3,8 +3,8 @@
 This Terraform configuration demonstrates how to deploy an **EC2 instance** whose type changes dynamically based on your environment and region.
 
 ### 🧩 Logic
-- If `environment` = `production` **and** `region` = `us-east-1` → uses **t2.micro**
-- Otherwise → uses **m5.large**
+- If `environment` = `production` **and** `region` = `us-east-1` → uses **m5.large**
+- Otherwise → uses **t2.micro**
 
 ### ⚙️ Files
 | File | Description |
