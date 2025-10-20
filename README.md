@@ -18,3 +18,5 @@ This Terraform configuration demonstrates how to deploy an **EC2 instance** whos
 terraform init
 terraform plan
 terraform apply
+You can override defaults like this:
+terraform apply -var="environment=staging" -var="region=us-west-2"
